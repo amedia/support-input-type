@@ -1,0 +1,17 @@
+{
+  "defaultSeverity": "warning",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier",
+    "tslint-plugin-prettier"
+  ],
+  "rules": {
+    "prettier": true,
+    "no-unused-expression": [true, "allow-tagged-template"],
+    "object-literal-sort-keys": false,
+    "no-inferred-empty-object-type": true
+  },
+  "linterOptions": {
+    "exclude": ["node_modules/**/*.ts"]
+  }
+}

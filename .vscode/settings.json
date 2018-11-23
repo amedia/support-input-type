@@ -1,0 +1,9 @@
+{
+  "[typescript]": {
+    "editor.formatOnSave": true,
+  },
+  "tslint.alwaysShowStatus": true,
+  "files.exclude": {
+    ".rts2_cache_*": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "supports-input-type",
+  "version": "1.0.0",
+  "description": "Tiny library for testing browser support of type attributes on input tags",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "source": "index.ts",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "repository": "amedia/support-input-type",
+  "author": "Amedia Utvikling",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "typescript": "^3.1.6"
+  },
+  "devDependencies": {
+    "microbundle": "^0.7.0",
+    "prettier": "^1.15.2",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.16.0",
+    "tslint-plugin-prettier": "^2.0.1"
+  }
+}
