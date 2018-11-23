@@ -1,6 +1,6 @@
 {
   "name": "supports-input-type",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tiny library for testing browser support of type attributes on input tags",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
