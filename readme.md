@@ -7,7 +7,7 @@ Tiny library for testing browser support of type attributes on input tags writte
 Install package:
 
 ```
-npm isntall supports-input-type
+npm install supports-input-type
 ```
 
 Test if the browser support an input type:
